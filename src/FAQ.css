@@ -1,0 +1,40 @@
+/* FAQ.css */
+.faq {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .faq-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .accordion {
+    text-align: left;
+  }
+  
+  .accordion-item {
+    margin-bottom: 1rem;
+  }
+  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .question {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .answer {
+    font-size: 1rem;
+    padding-left: 1.5rem;
+  }

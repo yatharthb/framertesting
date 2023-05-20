@@ -1,0 +1,27 @@
+/* Security.css */
+.security {
+    padding: 2rem;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .security-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .security-description {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .security-logos {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .security-logo {
+    width: 100px;
+    height: 100px;
+  }

@@ -1,0 +1,34 @@
+/* CTA.css */
+.cta {
+    padding: 2rem;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .cta-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #007bff;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #fff5cc;
+    color: #007bff;
+  }
