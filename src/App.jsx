@@ -1,5 +1,6 @@
 // App.jsx
 import React from 'react';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Hero from './Hero';
@@ -11,8 +12,20 @@ import FAQ from './FAQ';
 import CTA from './CTA';
 import Footer from './Footer';
 
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#1976d2', // Replace with your primary color
+    },
+    secondary: {
+      main: '#ff9800', // Replace with your secondary color
+    },
+  },
+});
+
 const App = () => {
   return (
+    <ThemeProvider theme={theme}>
     <Router>
       <Navbar />
       <Routes>
@@ -27,6 +40,7 @@ const App = () => {
       <CTA />
       <Footer />
     </Router>
+    </ThemeProvider>
   );
 };
 

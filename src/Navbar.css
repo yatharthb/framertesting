@@ -1,48 +1,62 @@
-/* Navbar.css */
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .navbar-container {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .navbar-links {
-    display: flex;
-  }
-  
-  .navbar-link {
-    color: white;
-    font-weight: bold;
-    text-decoration: none;
-    margin-right: 1rem;
-    padding: 0.5rem;
-  }
-  
-  .navbar-link.active {
-    border-bottom: 2px solid white;
-  }
-  
-  .navbar-auth {
-    display: flex;
-  }
-  
-  .navbar-button {
-    background-color: transparent;
-    border: 1px solid white;
-    color: white;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    margin-left: 1rem;
-    cursor: pointer;
-  }
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif; /* Add the Roboto font */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.navbar-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-link {
+  color: white;
+  font-weight: 500; /* Adjust the font weight */
+  text-decoration: none;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  transition: all 0.2s ease-in-out; /* Add a transition for hover effect */
+}
+
+.navbar-link:hover {
+  color: #ff9800; /* Add a hover color */
+  transform: translateY(-2px); /* Add a subtle lift effect on hover */
+}
+
+.navbar-link.active {
+  border-bottom: 2px solid white;
+}
+
+.navbar-auth {
+  display: flex;
+}
+
+.navbar-button {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-weight: 500; /* Adjust the font weight */
+  padding: 0.5rem 1rem;
+  margin-left: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out; /* Add a transition for hover effect */
+}
+
+.navbar-button:hover {
+  background-color: white;
+  color: #333; /* Add a hover color */
+  transform: translateY(-2px); /* Add a subtle lift effect on hover */
+}
